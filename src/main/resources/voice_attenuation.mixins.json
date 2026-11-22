@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "package": "com.ryouhei.Voice.Mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "voice_attenuation.mixins.refmap.json",
+  "minVersion": "0.8",
+  "client": [
+    "VoiceFactor",
+    "VoiceIconRender"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
